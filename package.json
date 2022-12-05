@@ -1,0 +1,38 @@
+{
+  "name": "craco-svg-sprite-loader-plugin",
+  "version": "0.0.1",
+  "description": "Wrapper for svg-sprite-loader replacing CRA's built-in loaders",
+  "author": "alexkomz",
+  "license": "MIT",
+  "homepage": "https://github.com/AlexKomz/craco-svg-sprite-loader-plugin#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlexKomz/craco-svg-sprite-loader-plugin"
+  },
+  "keywords": [
+    "svg-sprite-loader",
+    "svg-transform-loader",
+    "svgo-loader",
+    "craco",
+    "cra",
+    "create-react-app"
+  ],
+  "files": [
+    "lib/**",
+    "README.md",
+    "LICENSE"
+  ],
+  "main": "lib/index.js",
+  "dependencies": {
+    "svg-sprite-loader": "^6.0.11",
+    "svg-transform-loader": "^2.0.13",
+    "svgo-loader": "^3.0.3"
+  },
+  "peerDependencies": {
+    "react-scripts": "^5.0.1",
+    "@craco/craco": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=12"
+  }
+}
